@@ -28,19 +28,15 @@ a {
 	margin-top: 0;
 	margin-bottom: 10px;
 }
-/* menu bar */
-.menu-bar {
-	background-color: #000000;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	width: 1280px;
-	height: 80px;
-	background: rgba(255, 255, 255, 0.5);
-	z-index: 0;
-	margin-top: 0;
+/* title */
+.title {
+	font-family: DoodlePenLimited;
+	font-size: 110px;
+	text-align: center;
+	padding: 20px;
+	margin: 30px;
 }
+
 /* menu */
 .top-image {
 	position: relative;
@@ -53,26 +49,12 @@ a {
 	width: 1280px;
 	height: 650px;
 	z-index: 0;
-	margin: 0;
+	margin-top: 100px;
 	padding: 0;
 }
-.menu-box {
-	position: absolute;
-	width: 1280px;
-	height: 800px;
-	top: 0;
-	left: 0;
-	z-index: 1;
+.nav-text {
+	text-align: center;
 }
-.nav ul{
-    height: 100px;
-}
-.nav ul li {
-    margin-right: 20px;
-    text-align: center;
-    
-}
-
 
 .nav ul li a {
     width: 60px;
@@ -91,26 +73,26 @@ a {
 .nav ul li a:hover {
     -webkit-transform: scale( 1.5 );
     -moz-transform: scale( 1.5 );
-    color: #808080;
+    color: #a9a9a9;
 }
 .mainHeader {
 	padding: 0;
 	margin: 0;
 }
 .nav ul {
-	width: 670px;
+	width: 100%;
 	height: 60px;
-	padding: 0;
-	margin: 15px 20px 20px 20px;
+	padding: 10px;
+	margin:0;
+	text-align: center;
 }
 .mainHeader .nav ul {
 	list-style-type:none;
-	float: right;
-	margin-right: 100px;
 }
 .mainHeader .nav ul li {
-	font-size: 20px;
+	font-size: 15px;
 	float: left;
+	text-align: center;
 }
 .mainHeader .nav ul li a {
 	padding: 0 18px;
@@ -299,6 +281,7 @@ html {
 	text-align: center;
 	font-weight: lighter;
 }
+/* contents */
 .box1 {
 	overflow: hidden;
 }
@@ -339,9 +322,47 @@ html {
 .italy img {
 	margin: 15px;
 }
-
-
-
+.box2 {
+	overflow: hidden;
+}
+.uk {
+	background-color: #ffffff;
+	float: right;
+	width: 720px;
+	height: 550px;
+	margin: 10px 10px 10px 10px;
+	overflow: hidden;
+}
+.uk img {
+	margin: 15px;
+	float: left;
+}
+.uk h1 {
+	text-align: center;
+}
+.uk p {
+	text-align: center;
+	padding: 20px 20px 10px 10px;
+	font-weight: lighter;
+}
+.german {
+	background-color: #ffffff;
+	float: left;
+	width: 480px;
+	height: 550px;
+	margin: 10px;
+}
+.german h1 {
+	text-align: center;
+}
+.german p {
+	text-align: center;
+	padding: 20px 10px 10px 10px;
+	font-weight: lighter;
+}
+.german img {
+	margin: 15px;
+}
 
 
 
